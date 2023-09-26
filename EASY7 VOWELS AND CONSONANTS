@@ -1,0 +1,38 @@
+import java.io.*;
+import java.util.*;
+public class Vowelconso {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the string:");
+		String j=s.nextLine();
+		int i,l=j.length(),k;
+		System.out.print("Vowels are:\n");
+		for(i=0;i<l;i++)
+		{
+			if(j.charAt(i)=='a'|| j.charAt(i)=='e' || j.charAt(i)=='i'|| j.charAt(i)=='o' || j.charAt(i)=='u')
+			{
+				System.out.print(j.charAt(i));
+			}
+		}
+		System.out.println("\nConsonants are:");
+		for(k=0;k<l;k++)
+			{
+				if(j.charAt(k)=='a'|| j.charAt(k)=='e' || j.charAt(k)=='i'|| j.charAt(k)=='o' || j.charAt(k)=='u') 
+					{
+						continue;
+					}
+				else
+				{
+					System.out.print(j.charAt(k));
+				}
+			}
+	}
+}
+
+#Enter the string:
+manogna
+Vowels are:
+aoa
+Consonants are:
+mngn
