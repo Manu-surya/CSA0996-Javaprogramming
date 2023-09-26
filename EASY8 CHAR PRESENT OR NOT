@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class charprestinstr {
+public class Main{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
@@ -15,11 +15,13 @@ public class charprestinstr {
 			{
 				System.out.println("element is found at the index:" +i);
 			}
+			else{
+			    System.out.println("element not found" +i);
+			}
 		}
 	}
 }
 
-#enter the character to be searched:
-a
-element is found at the index:1
-element is found at the index:7
+#Enter the string: saveetha
+Enter the char: k
+character not found
