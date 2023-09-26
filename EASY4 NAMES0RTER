@@ -33,3 +33,19 @@ public class Namesorter {
     }
   }
 }		
+
+#Enter names (type 'done' when finished):
+Bnnana
+Apple
+Grapes
+Custard
+Mango
+done
+Sort names in ascending or descending order? (A/D)
+A
+Sorted names (ascending):
+Apple
+Bnnana
+Custard
+Grapes
+Mango
