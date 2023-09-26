@@ -20,3 +20,6 @@ public class Vowels
 		System.out.print("number of vowels:"+cnt);
 	}
 }
+
+#enter any string:saveetha school of engineering
+number of vowels:12
