@@ -23,3 +23,7 @@ public class reverse {
  }
 
 }
+
+#Enter a string : good
+Reverse of a String 'good' is :
+doog
